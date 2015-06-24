@@ -21,5 +21,5 @@ app.use(express.static(__dirname + '/public'));
 
 // START THE SERVER
 // ====================================
-app.listen(port);
-console.log('Magic happens on port ' + port
+app.listen(port, ip);
+console.log('Magic happens on port ' + port);
