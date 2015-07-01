@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CMSC2 Exer14</title>
+	</head>
+	<body>
+		<form>
+		<h2>Order form</h2>
+		<fieldset>
+	        <legend>Customer Details</legend> <br>
+	        <label> Customer name: <input type="text" name="customer name" required></label> <br><br>
+	        <label> Mobile number: <input type="number" name="customer number" required></label> <br><br>
+	        <label> Email Address: <input type="email" name="email"></label>
+        </fieldset>
+        <fieldset>
+        	<legend>Pizza Options</legend> <br>
+        	<label>Flavor:<select name="flavor">
+	        <option value="hawaiian">Hawaiian</option>
+	        <option value="doublecheese">Double Cheese</option>
+	        <option value="margherita">Margherita</option>
+	        <option value="peppypaneer">Barbecue Bacon Cheeseburger</option>
+	        <option value="pepperoniandcheese">Pepperoni and Cheeseh</option>
+	        </select></label><br><br>
+	        <legend>Size:</legend>
+	        <label><input type="radio" name="size" value="small"> Small </label>
+       		<label><input type="radio" name="size" value="medium"> Medium </label>
+        	<label><input type="radio" name="size" value="large"> Large </label><br><br>
+        	<legend>Extra Toppings: </legend>
+	        <label><input type="checkbox" name="toppings" value="bacon" > Bacon </label>
+	        <label><input type="checkbox" name="toppings" value="cheese" > Cheese </label>
+	        <label><input type="checkbox" name="toppings" value="onion" > Onion </label>
+	        <label><input type="checkbox" name="toppings" value="mushroom" > Mushroom </label>
+		</fieldset>
+		<fieldset>
+	       	<legend>Delivery Details</legend><br>
+	       	<label> Delivery date: <input type="date" name="date" required></label> <br><br>
+	       	<label> Preferred delivery time: <input type="time" name="time" required></label> <br><br>
+	       	<label> Delivery address: <br><textarea rows="10" cols="50" required></textarea></label>
+		</fieldset>
+		<button type="reset">Reset</button><button type="submit">Submit</button>
+		</form>
+	</body>
+</html>
