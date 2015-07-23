@@ -1,0 +1,101 @@
+body {font-family: Arial; 
+    margin-left: 200px; 
+    margin-right: 200px;}
+
+.whole {width: 900px; 
+    height: 1300px; 
+    background-color: #cbe5ff; 
+    margin: auto; 
+    padding: 40px;}
+
+.preview {position: relative;
+    margin-left: 180px;
+    background-color: #84befe;
+    width:720px;
+    height:350px;}
+    
+.box {width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    float: left;
+    top: 50px;}    
+
+.rect a:link {top: 200px; 
+    right: -5px; 
+    text-decoration: none;
+    text-align: center;
+    width: 30px; 
+    height: 80px; 
+    color:#cbe5ff; 
+    background-color: white; 
+    border-style: dotted; 
+    text-align:center; 
+    position: fixed; }
+.rect a:hover {background-color:#cbe5ff; 
+    color: white;}
+
+.nav a:link {float:left; 
+    width:100px;
+    text-decoration:none; 
+    color:white; 
+    background-color:#84befe; 
+    padding: 10px;
+    padding-left: 39px;
+    padding-right:40px;
+    border-right:1px solid white; 
+    text-align:center; 
+    z-index: 3;
+    position: relative;}
+.nav a:hover {background-color:gray;}
+.nav a:active {color: black; 
+    background-color: white; 
+    height: 200px;}
+    
+.mid { background-color: white;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;}
+    
+.last {width: 900px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;}
+    
+.left {
+    width:439px;
+    height:390px;
+    float:left
+    margin:4px;
+    border: 2px dotted #cbe5ff;}
+
+.left-head {
+    width:430px;
+    height:50px;
+    margin:4px;
+    background-color:#84befe;}
+
+.right {
+    width:439px;
+    height:390px;
+    float:left;
+    margin:3px;
+    border: 2px dotted #cbe5ff;}
+
+.right-head {
+    width:430px;
+    height:50px;
+    margin:4px;
+    background-color:#84befe;}
+
+.footer {
+    width:820px;
+    height:100px;
+    color:#84befe;
+    text-align:right;
+    float: right;}
